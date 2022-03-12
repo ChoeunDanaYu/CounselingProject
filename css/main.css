@@ -2,23 +2,23 @@ body {
     margin: 20px;
     padding: 0;
 }
-#nav-bar{
+#content{
     background-color:white;
     height:70px;
-    width:1200px;
+    width:100%;
 }
 #nav-container{
     width:100%;
     height:70px;
 }
 
-#nav-bar img{
+#content img{
     float: left;
     max-width: 100%;
     max-height: 100%;
 }
 
-#nav-bar ul{
+#content ul{
     padding:0px;
     margin-top: 0px;
     margin-left: 20px;
@@ -27,17 +27,64 @@ body {
     vertical-align: top;
 }
 
-#nav-bar li{
+#content li{
     list-style-type: none;
     padding: 0px;
     height:24px;
     display: inline;
 }
 
-#nav-bar li a{
+#content li a{
     color:black;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     line-height: 70px;
     padding: 0px 15px;
+}
+
+#current{
+    font-weight: bold;
+}
+
+#navbarright{
+    float: right;
+}
+
+#description{
+    max-width: 100%;
+}
+
+#banner img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#aboutus{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#aboutustext{
+    font-size: 18px;
+}
+#aboutusbutton{
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    background-color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+}
+
+#aboutus a{
+    text-decoration: none;
+}
+
+#services{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    align-items: center;
 }
