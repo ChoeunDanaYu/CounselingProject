@@ -84,6 +84,9 @@ body {
 }
 
 #services{
+    display: block;
+}
+#wrapper{
     display: grid;
     grid-template-columns: 2fr 3fr 1fr;
     align-items: center;
