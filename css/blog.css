@@ -48,3 +48,35 @@ body {
 #navbarright{
     float: right;
 }
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.articletitle{
+    display: inline;
+    font-weight: bold;
+    float: left;
+}
+
+.articledate{
+    display: inline;
+    float: right;
+}
+
+.articlepicture{
+    display: inline;
+}
+
+#wrapper :nth-child(1+2n){
+    margin-left: 100px;
+}
+
+#wrapper :nth-child(2n){
+    margin-right: 100px;
+}
