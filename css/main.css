@@ -80,28 +80,36 @@ body {
 
 #aboutus{
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #aboutushead{
     font-size: 30px;
-    margin-bottom: 50px;
-    font-family: 'GongGothicMedium'
+    font-family: 'GongGothicMedium';
+    margin-bottom: 20px;
 }
 #aboutustext{
     font-size: 14px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 #aboutusbutton{
-    border: 1px solid black;
     cursor: pointer;
-    border-radius: 12px;
     outline: none;
-    background-color: white;
     text-decoration: none;
     font-size: 16px;
     padding: 10px;
-    font-family: 'GongGothicBold';
+    font-family: 'GongGothicLight';
+    background-color: #096cc6; 
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    margin-right: 50%
 }
 
 #aboutus a{
