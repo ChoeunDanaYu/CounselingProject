@@ -1,3 +1,24 @@
+@font-face{
+    font-family: 'GongGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'GongGothicLight';
+}
 body {
     padding: 0;
 }
@@ -55,16 +76,21 @@ body {
 
 #banner img{
     max-width: 100%;
-    margin-bottom: 10px;
 }
 
 #aboutus{
     text-align: center;
-    margin-bottom: 10px;
 }
 
+#aboutushead{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: 'GongGothicMedium'
+}
 #aboutustext{
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: 50px;
+
 }
 #aboutusbutton{
     border: 1px solid black;
@@ -75,6 +101,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     padding: 10px;
+    font-family: 'GongGothicBold';
 }
 
 #aboutus a{
@@ -108,4 +135,36 @@ body {
 #serviceAButton a{
     text-decoration: none;
     color: black;
+}
+#banner{
+    display: inline-block;
+    width: 100%;
+    height: 175px;
+}
+
+#banner-wrapper {
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: 'GongGothicBold';
+    color: white;
+}
+#banner-wrapper p{
+    font-size: 35px;
+}
+#banner-wrapper button{
+    font-family: 'GongGothicLight';
+    background-color: #096cc6; 
+    font-size: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    margin-right: 50%
 }
